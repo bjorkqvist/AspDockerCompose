@@ -1,12 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDockerCompose", "AspDockerCompose\AspDockerCompose.csproj", "{92C0E112-265E-42E5-B42F-5F1DE83D86C6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{516C9141-C723-4565-8B2F-E622294B1356}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDockerCompose.App1", "AspDockerCompose.App1\AspDockerCompose.App1.csproj", "{3D94D088-0315-4CB0-ABE6-1FC323215CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDockerCompose.App2", "AspDockerCompose.App2\AspDockerCompose.App2.csproj", "{4301E131-E9F5-4A6B-A8DD-6AA9BB91F148}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +16,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{92C0E112-265E-42E5-B42F-5F1DE83D86C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92C0E112-265E-42E5-B42F-5F1DE83D86C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92C0E112-265E-42E5-B42F-5F1DE83D86C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92C0E112-265E-42E5-B42F-5F1DE83D86C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D94D088-0315-4CB0-ABE6-1FC323215CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D94D088-0315-4CB0-ABE6-1FC323215CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D94D088-0315-4CB0-ABE6-1FC323215CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D94D088-0315-4CB0-ABE6-1FC323215CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4301E131-E9F5-4A6B-A8DD-6AA9BB91F148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4301E131-E9F5-4A6B-A8DD-6AA9BB91F148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4301E131-E9F5-4A6B-A8DD-6AA9BB91F148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4301E131-E9F5-4A6B-A8DD-6AA9BB91F148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

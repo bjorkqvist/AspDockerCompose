@@ -1,8 +1,19 @@
 ﻿services:
-  aspdockercompose:
-    image: aspdockercompose
+  aspdockercompose_app1:
+    image: aspdockercompose.app1
     build:
       context: .
-      dockerfile: AspDockerCompose/Dockerfile
+      dockerfile: AspDockerCompose.App1/Dockerfile
     ports:
-      - "8081:8080"
+      - "1111:8080"
+
+  aspdockercompose_app2:
+    image: aspdockercompose.app2
+    build:
+      context: .
+      dockerfile: AspDockerCompose.App2/Dockerfile
+    ports:
+      - "2222:8080"
+
+
+

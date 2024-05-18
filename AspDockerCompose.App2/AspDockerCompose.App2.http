@@ -1,0 +1,6 @@
+@AspDockerCompose.App2_HostAddress = http://localhost:2222
+
+GET {{AspDockerCompose.App2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
